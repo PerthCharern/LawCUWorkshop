@@ -12,17 +12,20 @@
 # constitutions
 
 sentence = ""
+
 while True:
-    mystery = input("Enter a word: ")
-    
-    if (mystery.lower() == "exit"):
+    word = input("Enter a word: ")
+
+    if (word.lower() == "exit"):
         break;
     
-    if (mystery.lower() == "democracy" or mystery.lower() == "constitution"):
+    if (word.lower() == "democracy" or word.lower() == "constitution"):
         sentence = sentence + "[censored]" + " "
     else:
-        sentence = sentence + mystery + " "
+        sentence = sentence + word + " "
+    
     print("Word added")
+
 sentence = sentence[:-1] # Remove last character from string
 sentence = sentence + "."
 
