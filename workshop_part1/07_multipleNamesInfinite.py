@@ -1,6 +1,9 @@
 longestName = ""
-for i in range(10):
+while True:
     name = input("Enter name: ")
-    if (len(name) > len(longestName)):
+    if (name == "exit"):
+        break;
+    elif (len(name) > len(longestName)):
         longestName = name
+
 print(longestName + " is the longest name")
