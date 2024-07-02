@@ -2,5 +2,5 @@
 
 originalString = "law vs tech"
 
-index = originalString.index("tech")
-print(index)
+substring = originalString[4:6]
+print(substring)
