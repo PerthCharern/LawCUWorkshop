@@ -4,4 +4,4 @@ Code in this repository was used during the Tech & Law Bootcamp for the LLBel pr
 
 Students, please consult the code for your revision and reference.
 
-Others, please feel free to browse around to understand what was covered during the workshop.
+Others, please feel free to browse around if you are interested in seeing what was covered during the workshop.
